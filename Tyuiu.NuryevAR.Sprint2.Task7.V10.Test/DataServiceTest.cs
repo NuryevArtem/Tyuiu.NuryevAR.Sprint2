@@ -9,9 +9,9 @@ namespace Tyuiu.NuryevAR.Sprint2.Task7.V10.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            double x = 1.1;
-            double y = -1.2;
-            bool wait = false;
+            double x = 0;
+            double y = -0.5;
+            bool wait = true;
             bool res = ds.CheckDotInShadedArea(x, y);
             Assert.AreEqual(wait, res);
         }
