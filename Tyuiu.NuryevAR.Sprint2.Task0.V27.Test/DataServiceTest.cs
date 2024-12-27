@@ -8,7 +8,7 @@ namespace Tyuiu.NuryevAR.Sprint2.Task0.V27.Test
         [TestMethod]
         public void GetCompareOperations()
         {
-            DataService ds = new DataService();
+            DataService ds = new DataService(); 
             int x = 1305;
             int y = 275;
             bool[] res = new bool[6];

@@ -6,7 +6,7 @@ namespace Tyuiu.NuryevAR.Sprint2.Task0.V27.Lib
     {
         public bool[] GetCompareOperations(int x, int y)
         {
-            bool[] res = new bool[6];
+            bool[] res = new bool[6]; 
             res[0] = (x - 1030) == y;
             res[1] = (x - 1030) != y;
             res[2] = (x - 1031) < y;

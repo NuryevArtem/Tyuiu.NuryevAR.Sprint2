@@ -4,7 +4,7 @@ namespace Tyuiu.NuryevAR.Sprint2.Task0.V27
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args) 
         {
             DataService ds = new DataService();
 
