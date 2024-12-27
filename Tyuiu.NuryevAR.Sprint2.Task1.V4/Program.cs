@@ -7,7 +7,7 @@ namespace Tyuiu.NuryevAR.Sprint2.Task1.V4
         static void Main(string[] args)
         {
             DataService ds = new DataService();
-            int a = 325, b = 325, c = 242, d = 324;
+            int a = 175, b = 176, c = 414, d = 414;
             bool[] res = new bool[6];
             res = ds.GetLogicOperations(a, b, c, d);
 
@@ -27,7 +27,7 @@ namespace Tyuiu.NuryevAR.Sprint2.Task1.V4
             Console.WriteLine("* последовательность операций не должна нарушаться),                                     *");
             Console.WriteLine("* а также арифметических выражений, которая вернет логическую последовательность(массив):*");
             Console.WriteLine("* (False, False, False, False, True, False),                                             *");
-            Console.WriteLine("* при a = 325, b = 325, c = 242, d = 324                                                 *");
+            Console.WriteLine("* при a = 175, b = 176, c = 414, d = 414                                                 *");
             Console.WriteLine("******************************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                                       *");
             Console.WriteLine("******************************************************************************************");
